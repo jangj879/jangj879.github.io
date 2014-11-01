@@ -1,0 +1,31 @@
+body {
+    background-color: yellow;
+}
+
+.sprite {
+    width: 200px;
+    height: 200px;
+    background-image: url('sprite.jpg');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite:hover {
+    background-position: -200px 0;
+}
+.sprite:active {
+    background-position: ;
+}
+.wrapper {
+    width: 400px;
+}
+
+.column {
+    width: 160px;
+    padding: 20px;
+    float: left;
+}
+
+.claer {
+    clear: both;
+}
