@@ -1,5 +1,5 @@
 body {
-    background-image:url(grid.png);
+    background-image:url("grid.png");
 }
 
 .canvas {
