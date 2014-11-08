@@ -1,9 +1,31 @@
 <!DOCTYPE html>
 <html>
 <header>
-<link href="style2.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
 
 <head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: black;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+</style>
+
 <style> 
 div {
     background-color: lightgrey;
@@ -16,9 +38,8 @@ div {
 </head>
 <body>
 
-<div>
-This DIV uses an image as a border.
-</div>
+<div>JIHEA</div>
+
 <p>Here is the image used:</p>
 <img src="border.png">
 
