@@ -1,13 +1,19 @@
 body {
-    background-color: blue;
+    background-image: dotdot;
     color: red;
     font-size: 36px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Arial Black;
     text-align: center;
+}
+body  {
+    background-image: url("dotdot.jpg");
 }
 
 p {
     margin: 100px;
+    border:10px solid grey;
+    padding:10px;
+    margin:30px;
 }
 
 .paragraph2 {
@@ -37,3 +43,12 @@ a:link {
 a:hover {
     color: red;
 }
+.img {
+    content: icon;
+    icon: url(icon2.png);
+    border-radius: 100%;
+   
+    
+	
+    
+</html>
