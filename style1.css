@@ -1,8 +1,8 @@
 body {
-    background-image: url("blue.jpg");
+    background-color: pink;
     color: white;
     font-size: 36px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     text-align: center;
 }
 
@@ -12,17 +12,6 @@ p {
 
 .paragraph2 {
     color: #5ef645;
-}
-
-.one {
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-    position: fixed;
-    bottom: 20px;
-    right: 100px;
-    border-radius: 100px;
-    border: solid red 10px 
 }
 
 .one:hover {
