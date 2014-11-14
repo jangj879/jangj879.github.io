@@ -1,11 +1,14 @@
 body {
-    color: red;
-    font-size: 36px;
-    font-family: Helvetica, Arial, sans-serif;
+    color: hotpink;
+    font-size: 50px;
+    font-family: Impact, Charcoal, sans-serif;
     text-align: center;
 }
-
-p {
+body  {
+    background-image: url("mondrian.jpg");
+    
+}
+.p {
     margin: 100px;
 }
 
@@ -35,4 +38,35 @@ a:link {
 
 a:hover {
     color: red;
+}
+.img {
+    content: icon;
+    icon: url(icon2.png);
+    border-radius: 100%;
+}
+header {
+    background:black;
+    color:white;
+    text-align:center;
+    padding:5px;     
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;          
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;        
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;         
 }
