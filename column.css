@@ -33,7 +33,9 @@ body {
     width:800px;
     height: 500px;
 }
-
+.div2{
+    color: white;
+}
 .sprite {
     width: 200px;
     height: 200px;
