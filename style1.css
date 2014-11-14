@@ -26,3 +26,8 @@ a:link {
 a:hover {
     color: red;
 }
+.img {
+    content: icon;
+    icon: url(icon2.png);
+    border-radius: 100%;
+}
