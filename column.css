@@ -29,6 +29,11 @@ body {
     left: 30p;
 }
 
+.div1{
+    width:800px;
+    height: 500px;
+}
+
 .sprite {
     width: 200px;
     height: 200px;
