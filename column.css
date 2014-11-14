@@ -1,7 +1,7 @@
 body {
     background-image:url("dot.gif");
     background-repeat: repeat;
-    color: hotpink;
+    color: pink;
 }
 
 .canvas {
@@ -61,4 +61,9 @@ body {
 
 .claer {
     clear: both;
+}
+
+.img {
+    content: icon;
+    icon: url(iconn.jpg);
 }
