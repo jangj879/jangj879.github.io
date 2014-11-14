@@ -70,5 +70,6 @@ body {
 
 .img {
     content: icon;
-    icon: url(iconn.jpg);
+    icon: url(icon2.png);
+    border-radius: 100%;
 }
