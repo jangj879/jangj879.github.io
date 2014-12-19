@@ -1,6 +1,7 @@
 body {
     background-image:url("bg2.jpg");
     background-repeat: repeat;
+    background-clip:url(Jihea_jang_fin.pdf);
     color: pink;
 }
 
@@ -63,12 +64,6 @@ body {
     width: 160px;
     padding: 20px;
     float: left;
-}
-
-.link {
-    color: white;
-    url("Jihea_jang_fin.pdf");
-
 }
 
 .claer {
