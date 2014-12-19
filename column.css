@@ -49,10 +49,6 @@ body {
     top: 20px;
     right: 40px;
 }
-.link {
-    
-}
-
 .sprite:hover {
     background-position: -200px 0;
 }
